@@ -42,7 +42,7 @@ class FFDiscriminator(nn.Module):
             hidden_dim: int =128
     ):
         # Call to Module
-        super(Discriminator, self).__init__()
+        super(FFDiscriminator, self).__init__()
 
         # Sequence
         self.disc = nn.Sequential(
